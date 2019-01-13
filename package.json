@@ -1,0 +1,27 @@
+{
+  "name": "ipld-in-memory",
+  "version": "0.0.0",
+  "description": "IPLD in your RAM",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && nyc --reporter=lcov --reporter=text tape test.js"
+  },
+  "keywords": [
+    "IPLD",
+    "RAM"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "interface-datastore": "~0.6.0",
+    "ipfs-block-service": "~0.15.2",
+    "ipfs-repo": "~0.26.0",
+    "ipld": "~0.20.2"
+  },
+  "devDependencies": {
+    "nyc": "^13.1.0",
+    "standard": "^12.0.1",
+    "tape": "^4.9.2"
+  }
+}
