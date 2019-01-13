@@ -1,6 +1,6 @@
 # ipld-in-memory
 
-[![dependencies Status](https://david-dm.org/alanshaw/ipld-in-memory/status.svg)](https://david-dm.org/alanshaw/ipld-in-memory) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/alanshaw/ipld-in-memory.svg?branch=master)](https://travis-ci.org/alanshaw/ipld-in-memory) [![dependencies Status](https://david-dm.org/alanshaw/ipld-in-memory/status.svg)](https://david-dm.org/alanshaw/ipld-in-memory) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 > IPLD in your RAM
 
