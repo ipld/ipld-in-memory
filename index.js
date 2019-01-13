@@ -1,5 +1,5 @@
 const IPFSRepo = require('ipfs-repo')
-const { MemoryStore } = require('interface-datastore')
+const { MemoryDatastore } = require('interface-datastore')
 const BlockService = require('ipfs-block-service')
 const IPLD = require('ipld')
 
@@ -12,10 +12,10 @@ const IPLD = require('ipld')
 module.exports = callback => {
   const repo = new IPFSRepo('in-memory', {
     storageBackends: {
-      root: MemoryStore,
-      blocks: MemoryStore,
-      datastore: MemoryStore,
-      keys: MemoryStore
+      root: MemoryDatastore,
+      blocks: MemoryDatastore,
+      datastore: MemoryDatastore,
+      keys: MemoryDatastore
     },
     lock: 'memory'
   })
