@@ -18,10 +18,9 @@ npm install ipld-in-memory
 const IPLD = require('ipld')
 const inMemory = require('ipld-in-memory')
 
-inMemory(IPLD, (err, ipld) => {
-  if (err) throw err
-  // ipld is an instance of IPLD (https://www.npmjs.com/package/ipld) configured
-  // to use an in memory repo for storage!
+const ipld = await inMemory(IPLD)
+// ipld is an instance of IPLD (https://www.npmjs.com/package/ipld) configured
+// to use an in memory repo for storage!
 })
 ```
 
