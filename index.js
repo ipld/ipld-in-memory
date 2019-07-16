@@ -9,7 +9,7 @@ const BlockService = require('ipfs-block-service')
  * @param {function(Error, IPLD)} callback
  * @returns {void}
  */
-module.exports = (IPLD, callback) => {
+module.exports = async (IPLD) => {
   const repo = new IPFSRepo('in-memory', {
     storageBackends: {
       root: MemoryDatastore,
@@ -21,12 +21,7 @@ module.exports = (IPLD, callback) => {
   })
   const blockService = new BlockService(repo)
 
-  repo.init({}, err => {
-    if (err) return callback(err)
-
-    repo.open(err => {
-      if (err) return callback(err)
-      callback(null, new IPLD({ blockService }))
-    })
-  })
+  await repo.init({})
+  await repo.open()
+  return new IPLD({ blockService })
 }
