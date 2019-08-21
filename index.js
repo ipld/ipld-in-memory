@@ -10,7 +10,7 @@ const BlockService = require('ipfs-block-service')
  * @returns {void}
  */
 module.exports = async (IPLD) => {
-  const repo = new IPFSRepo('in-memory', {
+  const repo = new IPFSRepo('in-memory-' + Date.now(), {
     storageBackends: {
       root: MemoryDatastore,
       blocks: MemoryDatastore,
