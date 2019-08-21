@@ -21,7 +21,6 @@ const inMemory = require('ipld-in-memory')
 const ipld = await inMemory(IPLD)
 // ipld is an instance of IPLD (https://www.npmjs.com/package/ipld) configured
 // to use an in memory repo for storage!
-})
 ```
 
 ## Contribute
