@@ -16,12 +16,12 @@
   "dependencies": {
     "interface-datastore": "^0.7.0",
     "ipfs-block-service": "^0.16.0",
-    "ipfs-repo": "^0.27.0"
+    "ipfs-repo": "^0.27.1"
   },
   "devDependencies": {
-    "nyc": "^13.1.0",
-    "standard": "^12.0.1",
-    "tape": "^4.9.2"
+    "nyc": "^14.1.1",
+    "standard": "^14.0.0",
+    "tape": "^4.11.0"
   },
   "repository": {
     "type": "git",
