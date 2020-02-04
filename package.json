@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alanshaw/ipld-in-memory.git"
+    "url": "git+https://github.com/ipld/ipld-in-memory.git"
   },
   "bugs": {
-    "url": "https://github.com/alanshaw/ipld-in-memory/issues"
+    "url": "https://github.com/ipld/ipld-in-memory/issues"
   },
-  "homepage": "https://github.com/alanshaw/ipld-in-memory#readme"
+  "homepage": "https://github.com/ipld/ipld-in-memory#readme"
 }
