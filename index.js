@@ -1,6 +1,7 @@
 const IPFSRepo = require('ipfs-repo')
 const { MemoryDatastore } = require('interface-datastore')
 const BlockService = require('ipfs-block-service')
+const hat = require('hat')
 
 /**
  * Create an IPLD instance with an in memory blockservice and repo.
@@ -10,7 +11,7 @@ const BlockService = require('ipfs-block-service')
  * @returns {void}
  */
 module.exports = async (IPLD) => {
-  const repo = new IPFSRepo('in-memory-' + Date.now(), {
+  const repo = new IPFSRepo('in-memory-' + hat(), {
     storageBackends: {
       root: MemoryDatastore,
       blocks: MemoryDatastore,
