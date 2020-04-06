@@ -14,10 +14,10 @@
   "author": "Alan Shaw",
   "license": "MIT",
   "dependencies": {
-    "hat": "0.0.3",
-    "interface-datastore": "^0.8.0",
-    "ipfs-block-service": "^0.16.0",
-    "ipfs-repo": "^0.30.1"
+    "hat": ">= 0.0.3",
+    "interface-datastore": ">= 0.8.0",
+    "ipfs-block-service": ">= 0.16.0",
+    "ipfs-repo": ">= 0.30.1"
   },
   "devDependencies": {
     "nyc": "^15.0.0",
