@@ -17,7 +17,7 @@
     "hat": "0.0.3",
     "interface-datastore": "^0.8.3",
     "ipfs-block-service": "^0.17.0",
-    "ipfs-repo": "^2.0.0"
+    "ipfs-repo": "^3.0.0"
   },
   "devDependencies": {
     "nyc": "^15.0.1",
