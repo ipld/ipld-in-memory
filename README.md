@@ -18,7 +18,11 @@ npm install ipld-in-memory
 const IPLD = require('ipld')
 const inMemory = require('ipld-in-memory')
 
-const ipld = await inMemory(IPLD)
+// options object to be passed to the IPLD constructor - any
+// 'blockservice' property will be overridden
+const ipldOpts = {}
+
+const ipld = await inMemory(IPLD, ipldOpts)
 // ipld is an instance of IPLD (https://www.npmjs.com/package/ipld) configured
 // to use an in memory repo for storage!
 ```
