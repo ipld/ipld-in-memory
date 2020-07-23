@@ -16,7 +16,8 @@ module.exports = async (IPLD, options = {}) => {
       root: MemoryDatastore,
       blocks: MemoryDatastore,
       datastore: MemoryDatastore,
-      keys: MemoryDatastore
+      keys: MemoryDatastore,
+      pins: MemoryDatastore
     },
     lock: 'memory'
   })
