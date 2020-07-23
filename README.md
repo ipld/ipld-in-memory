@@ -20,7 +20,7 @@ const inMemory = require('ipld-in-memory')
 
 // options object to be passed to the IPLD constructor -
 // this module sets the 'blockService' property in the options object
-// so any passed value will be ignored
+// so any passed value for that key will be ignored
 const ipldOpts = {}
 
 const ipld = await inMemory(IPLD, ipldOpts)
