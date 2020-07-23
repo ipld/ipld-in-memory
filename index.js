@@ -8,9 +8,9 @@ const hat = require('hat')
  *
  * @param {IPLD} IPLD An IPLD constructor
  * @param {function(Error, IPLD)} callback
- * @returns {void}
+ * @returns {Promise<IPLD>}
  */
-module.exports = async (IPLD) => {
+module.exports = async (IPLD, options = {}) => {
   const repo = new IPFSRepo('in-memory-' + hat(), {
     storageBackends: {
       root: MemoryDatastore,
@@ -24,5 +24,8 @@ module.exports = async (IPLD) => {
 
   await repo.init({})
   await repo.open()
-  return new IPLD({ blockService })
+  return new IPLD({
+    ...options,
+    blockService
+  })
 }
