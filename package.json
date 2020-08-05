@@ -16,7 +16,7 @@
   "dependencies": {
     "hat": "0.0.3",
     "interface-datastore": "^2.0.0",
-    "ipfs-block-service": "^0.17.0",
+    "ipfs-block-service": "ipfs/js-ipfs-block-service#fix/replace-buffers-with-uint8arrays",
     "ipfs-repo": "^6.0.0"
   },
   "devDependencies": {
