@@ -15,9 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "hat": "0.0.3",
-    "interface-datastore": "^1.0.4",
+    "interface-datastore": "^2.0.0",
     "ipfs-block-service": "^0.17.0",
-    "ipfs-repo": "^5.0.0"
+    "ipfs-repo": "^6.0.0"
   },
   "devDependencies": {
     "nyc": "^15.0.1",
