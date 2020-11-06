@@ -17,11 +17,11 @@
     "hat": "0.0.3",
     "interface-datastore": "^2.0.0",
     "ipfs-block-service": "^0.18.0",
-    "ipfs-repo": "^6.0.0"
+    "ipfs-repo": "^7.0.0"
   },
   "devDependencies": {
     "nyc": "^15.0.1",
-    "standard": "^14.3.3",
+    "standard": "^16.0.1",
     "tape": "^5.0.1"
   },
   "repository": {
