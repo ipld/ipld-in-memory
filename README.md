@@ -1,3 +1,5 @@
+**This project is no longer under active development and has been archived.**
+
 # ipld-in-memory
 
 [![Build Status](https://travis-ci.org/ipld/ipld-in-memory.svg?branch=master)](https://travis-ci.org/ipld/ipld-in-memory) [![dependencies Status](https://david-dm.org/ipld/ipld-in-memory/status.svg)](https://david-dm.org/ipld/ipld-in-memory) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
